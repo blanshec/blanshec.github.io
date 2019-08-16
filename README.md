@@ -1,5 +1,5 @@
 # Al's Personal Page
 
-###### https://blanshec.github.io/
+## v0.0.2
 
-###### v0.0.1
+### <https://blanshec.github.io/>
