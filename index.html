@@ -8,82 +8,86 @@
     <link rel="stylesheet" href="./styles/index.css" />
   </head>
   <body>
-    <header>
-      <h1>A Portfolio Page</h1>
-    </header>
-    <main>
-      <ol>
-        <!-- <li>
-          <a href="./form.html">
-            Yandex RegExp Form
-          </a>
-        </li> -->
-        <li>
-          <h3>Yandex.Praktikum Научиться Учиться</h3>
-          <p>
-            Данный проект разработан в рамках прохождения курса "Веб-Разработка"
-            от Яндекс.Практикум Целью данного проекта было научиться верстать
-            страницу по предоставленному шаблону. В процессе работы над проектом
-            были получены навыки базовой верстки (согласно современному
-            стандарту HTML5) и оформления веб-страницы с использованием CSS
-            стилей.
-          </p>
-          <p>
-            <a href="https://github.com/blanshec/yp_landing">
-              https://github.com/blanshec/yp_landing
-            </a>
-          </p>
-          <p>
-            <a href="https://blanshec.github.io/yp_landing">
-              https://blanshec.github.io/yp_landing
-            </a>
-          </p>
-        </li>
-        <li>
-          <h3>Yandex.Praktikum Путешествия по России</h3>
-          <p>
-            Данный проект разработан в рамках прохождения курса "Веб-Разработка"
-            от Яндекс.Практикум Целью данного проекта было научиться верстать
-            страницу согласно макету, предоставленному дизайнером в Figma.
-            Данная страница сверстана согласно современным стандартам и
-            адаптивна под ряд устройств от телефона и планшета до
-            широкоэкранного компьютера.
-          </p>
-          <p>
-            <a href="https://github.com/blanshec/yp_adpatlanding">
-              https://github.com/blanshec/yp_adpatlanding
-            </a>
-          </p>
-          <p>
-            <a href="https://blanshec.github.io/yp_adaptlanding">
-              https://blanshec.github.io/yp_adaptlanding
-            </a>
-          </p>
-        </li>
-        <li>
-          <h3>Yandex.Praktikum Место</h3>
-          <p>
-            Данный проект разработан в рамках прохождения курса "Веб-Разработка"
-            от Яндекс.Практикум Целью данного проекта было разработать
-            функционал страницы на языке JavaScript. В функционал данной
-            страницы входит изменение имени и краткого описания пользователя,
-            добавления картинок по прямой ссылке и просмотр загруженных на
-            сервер другими студентами Практикума картинок, отмечание
-            понравившихся картинок.
-          </p>
-          <p>
-            <a href="https://github.com/blanshec/yp_mesto">
-              https://github.com/blanshec/yp_mesto
-            </a>
-          </p>
-          <p>
-            <a href="https://blanshec.github.io/yp_mesto">
-              https://blanshec.github.io/yp_mesto
-            </a>
-          </p>
-        </li>
-      </ol>
-    </main>
-    <footer></footer>
+    <div class="content">
+      <header>
+        <h1 class="page__header">Alina Abdurshina's Portfolio Page</h1>
+      </header>
+      <main>
+        <ol>
+          <li>
+            <h3 class="description__header">
+              Yandex.Praktikum Научиться Учиться
+            </h3>
+            <p class="description__text">
+              Страница разработана по шаблону в рамках прохождения кусра
+              "Веб-Разработка" от Яндекс.Практикума. В работе использовались
+              современные стандарты HTML и CSS.
+            </p>
+            <p>
+              <a href="https://github.com/blanshec/yp_landing">
+                https://github.com/blanshec/yp_landing
+              </a>
+            </p>
+            <p>
+              <a href="https://blanshec.github.io/yp_landing">
+                https://blanshec.github.io/yp_landing
+              </a>
+            </p>
+          </li>
+          <li>
+            <h3 class="description__header">
+              Yandex.Praktikum Путешествия по России
+            </h3>
+            <p class="description__text">
+              Адаптивный лендинг, сделанный по предоставленному в Figma макету.
+              Интерфейс подогнан под мобильные телефоны, планшеты, стандартные и
+              широкоформатные мониторы. Лендинг построен по БЭМ-методологии, в
+              стилях использованы медиа-запросы.
+            </p>
+            <p>
+              <a href="https://github.com/blanshec/yp_adaptlanding">
+                https://github.com/blanshec/yp_adpatlanding
+              </a>
+            </p>
+            <p>
+              <a href="https://blanshec.github.io/yp_adaptlanding">
+                https://blanshec.github.io/yp_adaptlanding
+              </a>
+            </p>
+          </li>
+          <li>
+            <h3 class="description__header">Yandex.Praktikum Место</h3>
+            <p class="description__text">
+              Одностраничное приложение "Место". К уже сверстанной странице было
+              необходимо прикрутить функционал, написанный на языке JavaScript.
+              В приложении имеется API, осуществляющий запросы к серверу через
+              fetch. В разработке использовался стандарт ES6. На странице можно
+              изменить имя пользователя, нажав на кнопку Edit и добавить в ленту
+              новую карточку, нажав на кнопку +. Можно поставить лайк любой
+              карточке (кнопка в виде сердечка), удалить карточку из ленты (при
+              наведении на карточку - кнопка в виде мусорной корзины),
+              развернуть карточку (нажатием на саму картику).
+            </p>
+            <p class="description__text">
+              Планируется дополнить функционал страницы возможностями загружать
+              добавленные пользователем карточки на сервер, удалять только
+              пользовательские карточки, сохранять информацию о понравившихся
+              карточках между сессиями.
+            </p>
+            <p>
+              <a href="https://github.com/blanshec/yp_mesto">
+                https://github.com/blanshec/yp_mesto
+              </a>
+            </p>
+            <p>
+              <a href="https://blanshec.github.io/yp_mesto">
+                https://blanshec.github.io/yp_mesto
+              </a>
+            </p>
+          </li>
+        </ol>
+      </main>
+      <footer></footer>
+    </div>
   </body>
 </html>
